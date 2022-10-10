@@ -1,0 +1,44 @@
+/* STYLING SHEET THAT IS LINKED TO DEFAULT.PHP IN THE SITE/TEMPLATES FOLDER */
+
+/*STYLING FOR THE LOGO IN THE NAV MENU */
+
+.logo {
+
+  text-decoration: none;
+  font-size: 28px;
+  color: black;
+  font-weight: 700;
+
+
+}
+
+.logo:hover {
+
+  opacity: .5;
+
+}
+
+.nav_menu {
+
+  list-style: none;
+
+}
+
+.nav_menu_items {
+
+  text-decoration: none;
+  color: black;
+
+}
+
+.nav_menu_items:hover {
+
+  opacity: .5;
+
+}
+
+body {
+
+  font-family: 'Montserrat', sans-serif;
+
+}

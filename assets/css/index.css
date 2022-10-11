@@ -1,14 +1,20 @@
 /* STYLING SHEET THAT IS LINKED TO DEFAULT.PHP IN THE SITE/TEMPLATES FOLDER */
 
-/*STYLING FOR THE LOGO IN THE NAV MENU */
+/* ENTIRE HEADER STYLING */
 
+.header {
+
+  width: 300px;
+
+}
+
+/* STYLING FOR THE LOGO IN THE NAV MENU */
 .logo {
 
   text-decoration: none;
-  font-size: 28px;
+  font-size: 40px;
   color: black;
-  font-weight: 700;
-
+  margin-left: 20px;
 
 }
 
@@ -18,16 +24,28 @@
 
 }
 
+/* NAV MENU STYLING*/
+
+.nav_menu_description {
+
+  margin: 20px;
+  margin-top: 30px;
+
+}
+
 .nav_menu {
 
   list-style: none;
-
+  margin-left: -20px;
+  margin-top: 30px;
 }
 
 .nav_menu_items {
 
   text-decoration: none;
   color: black;
+  font-size: 25px;
+  margin-top: 10px;
 
 }
 
@@ -37,8 +55,32 @@
 
 }
 
-body {
+/* SOCIAL MEDIA ICONS STYLING */
+
+.social_media_nav_menu {
+
+  margin-left: -30px;
+  margin-top: 30px;
+
+}
+.social_media_icons {
+
+  display: inline;
+  width: 25px;
+  margin: 3px;
+
+}
+
+.social_media_icons:hover {
+
+  opacity: .5;
+
+}
+
+/* ALL ELEMENTS STYLING */
+* {
 
   font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
 
 }

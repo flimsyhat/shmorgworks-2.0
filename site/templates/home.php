@@ -7,9 +7,15 @@
 
     <ul class = "projects-list">
       <?php foreach ($page->children() as $project): ?>
-        <!-- Need to find a way to set the size of this image -->
-          <li class = "projects"> <?php echo $project->image() ?></li>
+
+          <li class = "projects-container">
+            <img src = "<?php echo $project->images()?>" class = "projects">
+            <p class = "project-title"> <?php echo $project->image()->Title() ?> </p>
+            <p class = "project-dimensions"> <?php echo $project->image()->Project_Dimensions() ?> </p>
+            <p class = "project-date"> <?php echo $project->image()->Date_Created() ?> </p>
+          </li>
+
       <?php endforeach ?>
-    </ul>
-  </body>()
+    <ul>
+  </body>
 </html>

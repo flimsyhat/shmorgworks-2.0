@@ -3,6 +3,8 @@
 /* ENTIRE HEADER STYLING */
 .header {
 
+  /*FLOAT THE HEADER LEFT SO THE BODY CAN BE PLACED ALONGSIDE IT */
+  float: left;
   width: 300px;
 
 }
@@ -74,14 +76,48 @@
 
 }
 
-/*PROJECTS STYLING */
+/* HOME PAGE PROJECTS STYLING */
 
-.projects {
+.projects-list {
 
-  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 3rem;
 
 }
 
+.projects {
+
+  min-width: 200px;
+  max-width: 100%;
+}
+
+.project-title {
+
+  font-size: 18px;
+
+}
+
+.project-dimensions {
+
+  font-size: 14px;
+}
+
+.project-date {
+
+  font-size: 14px;
+}
+
+
+/* BODY STYLING. FLOAT RIGHT SO THAT THE 'HEADER' CAN BE FLOATED LEFT, LIKE THE ORIGINAL SITE. */
+
+.body {
+
+  float: right;
+
+}
 /* ALL ELEMENTS STYLING */
 * {
 

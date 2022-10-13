@@ -9,7 +9,9 @@
       <?php foreach ($page->children() as $project): ?>
 
           <li class = "projects-container">
-            <img src = "<?php echo $project->images()?>" class = "projects">
+
+            <!-- Images are displayed with a weird path in the browser, maybe I can fix this -->
+            <a href="<?php echo $project->images() ?>" class = "projects"> <img src = "<?php echo $project->images()?>" class = "projects-images"> </a>
             <p class = "project-title"> <?php echo $project->image()->Title() ?> </p>
             <p class = "project-dimensions"> <?php echo $project->image()->Project_Dimensions() ?> </p>
             <p class = "project-date"> <?php echo $project->image()->Date_Created() ?> </p>

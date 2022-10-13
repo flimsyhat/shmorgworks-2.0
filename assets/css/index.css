@@ -4,7 +4,6 @@
 .header {
 
   /*FLOAT THE HEADER LEFT SO THE BODY CAN BE PLACED ALONGSIDE IT */
-  float: left;
   width: 300px;
 
 }
@@ -88,10 +87,19 @@
 
 }
 
-.projects {
+.projects-images {
 
   min-width: 200px;
   max-width: 100%;
+  border: 1px solid black;
+
+}
+
+/* Links from pix */
+.projects:hover {
+
+  opacity: .75;
+
 }
 
 .project-title {
@@ -110,12 +118,16 @@
   font-size: 14px;
 }
 
+/* CV PAGE STYLING */
+
+
 
 /* BODY STYLING. FLOAT RIGHT SO THAT THE 'HEADER' CAN BE FLOATED LEFT, LIKE THE ORIGINAL SITE. */
+body {
 
-.body {
-
-  float: right;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 
 }
 /* ALL ELEMENTS STYLING */

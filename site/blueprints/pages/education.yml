@@ -1,0 +1,12 @@
+title: Education
+
+sections:
+  Info:
+    type: fields
+    fields:
+      Date:
+        type: text
+      School:
+        type: text
+      Course:
+        type: text

@@ -1,0 +1,16 @@
+title: Solo Exhibitions
+
+sections:
+  Info:
+    type: fields
+    fields:
+      Date:
+        type: text
+      Show_Name:
+        type: text
+      Gallery:
+        type: text
+      Curators:
+        type: text
+      Location:
+        type: text

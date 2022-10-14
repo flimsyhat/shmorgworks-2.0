@@ -1,0 +1,12 @@
+title: Piece
+
+sections:
+  Info:
+    type: fields
+    fields:
+      Title:
+        type: text
+      Project_Dimensions:
+        type: text
+      Date_Created:
+        type: text

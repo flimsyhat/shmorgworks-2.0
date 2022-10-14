@@ -1,0 +1,12 @@
+title: Print
+
+sections:
+  Info:
+    type: fields
+    fields:
+      Date:
+        type: text
+      Magazine:
+        type: text
+      Description:
+        type: text

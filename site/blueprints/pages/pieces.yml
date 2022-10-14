@@ -1,0 +1,9 @@
+title: Pieces
+
+sections:
+  Pieces:
+    type: pages
+    layout: cards
+    image:
+      ratio: 1/1
+      crop: true

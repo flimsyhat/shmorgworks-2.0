@@ -1,6 +1,14 @@
-TODO: 1. Figure out how to move the header to the left side of the screen and move the body of the all the pages to the right, like the original. Using float creates annoying bugs.
+TODO: 
 
-2. Format the About and CV pages. Make sure the files you have made are correct for how kirby works.
+1. Format the About and CV pages better. 
+
+2. Figure out how to change images in the panel using blueprints. 
+
+3. Check over panel and make sure there's no dumb mistakes (education as title)
+
+4. Add solo exhibition
+
+5. 
 
 
 

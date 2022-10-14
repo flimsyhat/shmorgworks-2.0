@@ -1,0 +1,8 @@
+title: Artist Statement
+
+sections:
+  Info:
+    type: fields
+    fields:
+      Text:
+        type: textarea

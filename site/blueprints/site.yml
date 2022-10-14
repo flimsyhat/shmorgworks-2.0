@@ -3,3 +3,6 @@ title: Site
 sections:
   pages:
     type: pages
+    layout: list
+    image:
+      back: white

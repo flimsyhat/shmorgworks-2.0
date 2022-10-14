@@ -1,6 +1,12 @@
 title: Piece
 
 sections:
+  Image:
+    type: files
+    layout: cards
+    image:
+      cover: true
+      ratio:
   Info:
     type: fields
     fields:

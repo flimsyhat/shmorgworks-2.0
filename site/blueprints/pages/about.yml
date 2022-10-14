@@ -3,3 +3,7 @@ title: About
 sections:
   About:
     type: pages
+    image:
+      cover: true
+      ratio:
+    layout: cards

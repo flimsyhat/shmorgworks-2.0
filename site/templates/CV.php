@@ -26,7 +26,7 @@
         <?php foreach ($page->children()->index()->search("solo_exhibitions")->children() as $solo_exhibition): ?>
 
           <li class = "cv_list_elements"> <p class = "solo_exhibition_dates"> <?php echo $solo_exhibition->Date() ?> </p>
-                                                 <p> <?php echo $solo_exhibition->Show_Name() ?> - <?php echo $solo_exhibition->Gallery() ?> - <?php echo $solo_exhibition->Curators() ?> - <?php echo $solo_exhibition->Location() ?></p>
+                                                 <p> <?php echo $solo_exhibition->Show_Name() ?> - <?php echo $solo_exhibition->Gallery() ?> - Exhibit curated by <?php echo $solo_exhibition->Curators() ?> - <?php echo $solo_exhibition->Location() ?></p>
           </li>
             <!-- horizontal line -->
             <hr>
@@ -41,7 +41,7 @@
         <?php foreach ($page->children()->index()->search("group_exhibitions")->children() as $group_exhibition): ?>
 
           <li class = "cv_list_elements"> <p class = "group_exhibition_dates"> <?php echo $group_exhibition->Date() ?> </p>
-                                                 <p> <?php echo $group_exhibition->Show_Name() ?> - <?php echo $group_exhibition->Gallery() ?> - <?php echo $group_exhibition->Curators() ?> - <?php echo $group_exhibition->Location() ?></p>
+                                                 <p> <?php echo $group_exhibition->Show_Name() ?> - <?php echo $group_exhibition->Gallery() ?> - Exhibit curated by <?php echo $group_exhibition->Curators() ?> - <?php echo $group_exhibition->Location() ?></p>
           </li>
             <!-- horizontal line -->
             <hr>

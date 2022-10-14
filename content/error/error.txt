@@ -1,1 +1,5 @@
 Title: Error
+
+----
+
+Text: This website has encountered an error. Please navigate to the homepage, or refresh the page.

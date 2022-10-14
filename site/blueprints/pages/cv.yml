@@ -3,3 +3,5 @@ title: CV
 sections:
   CV:
     type: pages
+    image:
+      back: white

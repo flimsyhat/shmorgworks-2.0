@@ -124,13 +124,15 @@
 .cv_headers {
 
   font-weight: normal;
-  margin-left: 40px;
 
 }
 
-.cv_list_elements {
+.cv_list_container {
 
-  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-column-gap: 3rem;
+  margin-bottom: 20px;
 
 }
 
@@ -138,17 +140,23 @@
 
 .about_headers {
 
-  text-align: center;
   font-weight: normal;
 
 }
 
 .about_images {
 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  width: 100%;
+  border: 1px solid black;
+
+}
+
+.about_section_container {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 3rem;
+  margin-bottom: 20px;
 
 }
 
@@ -173,6 +181,21 @@ font-size: 20px;
 
   position: absolute;
   margin-right: 40px;
+  border-left: 1px solid black;
+  padding-left: 20px;
+}
+
+/* SEPARATE HOME PAGE STYLING BECAUSE I DONT WANT THE LEFT SIDE BORDER LINE ON THIS PAGE */
+.home_page {
+
+  margin-top: -10px;
+  float: right;
+
+  /* so the page and header are not on top of eachother */
+  margin-left: 310px;
+  position: absolute;
+  margin-right: 40px;
+  
 }
 
 /* BODY STYLING.*/

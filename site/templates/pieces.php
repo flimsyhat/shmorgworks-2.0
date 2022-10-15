@@ -4,7 +4,7 @@
 <?php snippet('header') ?>
 
 <!-- pieces for loop -->
-  <div class = "page">
+  <div class = "home_page">
     <ul class = "projects-list">
       <?php foreach ($page->children() as $project): ?>
 

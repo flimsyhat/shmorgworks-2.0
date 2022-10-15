@@ -6,6 +6,10 @@ TODO:
 
 3. Add award for 3rd entry in award section
 
+4. Add months to all the year dates to improve formatting
+
+
+
 
 
 

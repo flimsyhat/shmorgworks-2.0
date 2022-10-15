@@ -7,10 +7,13 @@
 
     <h1 class = "about_headers"> <?php echo $p->title() ?> </h1>
 
-    <img class = "about_images" src = <?php echo $p->image()->url() ?> >
+    <div class = "about_section_container">
 
-    <p class = "about_text"> <?php echo $p -> text() ?> </p>
+      <div class = "about_section"<p class = "about_text"> <?php echo $p -> text() ?> </p></div>
 
+      <div class = "about_section"><img class = "about_images" src = <?php echo $p->image()->url() ?> ></div>
+
+    </div>
     <hr>
   <?php endforeach ?>
 

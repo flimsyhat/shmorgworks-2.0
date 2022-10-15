@@ -92,7 +92,6 @@
 
   min-width: 200px;
   max-width: 100%;
-  border: 1px solid black;
 
 }
 
@@ -146,17 +145,23 @@
 
 .about_images {
 
-  width: 100%;
-  border: 1px solid black;
+  min-width: 200px;
+  max-width: 80%;
+  max-height: 500px;
+  margin-bottom: 20px;
+
+  /*max-width: 100% (SIDE BY SIDE VIEW) */
 
 }
 
-.about_section_container {
+.about_section_text_container {
 
+/* (SIDE BY SIDE VIEW) */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 3rem;
   margin-bottom: 20px;
+  width: 80%
 
 }
 
@@ -212,6 +217,5 @@ body {
 If the browser does not support the first font, it tries the next font. */
 
   font-family: 'Montserrat', sans-serif;
-  letter-spacing: 1.8px;
-
+  /*letter spacing: 1.8px; */
 }

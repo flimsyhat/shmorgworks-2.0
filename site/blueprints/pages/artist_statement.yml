@@ -6,9 +6,11 @@ sections:
     layout: cards
     image:
       cover: true
-      ratio: 
+      ratio:
   Info:
     type: fields
     fields:
-      Text:
+      Paragraph_1:
+        type: textarea
+      Paragraph_2:
         type: textarea

@@ -123,8 +123,8 @@
 
 .cv_headers {
 
-  text-align: center;
   font-weight: normal;
+  margin-left: 40px;
 
 }
 
@@ -148,7 +148,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 50%;
 
 }
 
@@ -185,8 +185,10 @@ body {
 /* ALL ELEMENTS STYLING */
 * {
 
-/*Monserrat*/
-  font-family: 'Courier New', sans-serif;
+/* The font-family property can hold several font names as a "fallback" system.
+If the browser does not support the first font, it tries the next font. */
+
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 1.8px;
 
 }

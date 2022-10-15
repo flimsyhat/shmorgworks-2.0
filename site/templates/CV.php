@@ -48,7 +48,7 @@
         <?php endforeach ?>
       </ul>
     <!-- Awards and Honors Section -->
-    <h1 class = "cv_headers"> Awards and Honors </h1>
+    <h1 class = "cv_headers"> Awards/Honors </h1>
 
       <ul class = "cv_list">
         <!-- This finds the education subfolder an indexes through its subfolders. -->

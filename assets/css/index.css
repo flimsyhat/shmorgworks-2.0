@@ -173,15 +173,14 @@ font-size: 20px;
 /* PAGE STYLING. THIS IS EVERYTHING ON EVERY PAGE THAT IS NOT THE HEADER. IT IS FLOATED RIGHT AND THE HEADER IS FLOATED LEFT. */
 .page {
 
-  margin-top: -10px;
   float: right;
-
+  margin-top: -10px;
   /* so the page and header are not on top of eachother */
   margin-left: 310px;
-
-  position: absolute;
   margin-right: 40px;
+  position: absolute;
   border-left: 1px solid black;
+  /* padding adds more space to an element (ie moves the border out). margins add EMPTY space around an element */
   padding-left: 20px;
 }
 
@@ -195,7 +194,7 @@ font-size: 20px;
   margin-left: 310px;
   position: absolute;
   margin-right: 40px;
-  
+
 }
 
 /* BODY STYLING.*/
@@ -205,6 +204,7 @@ body {
 
 
 }
+
 /* ALL ELEMENTS STYLING */
 * {
 

@@ -154,6 +154,19 @@
 
 }
 
+/*
+.about_section_container {
+
+ (SIDE BY SIDE VIEW)
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 3rem;
+  margin-bottom: 20px;
+  width: 80%
+
+}
+*/
+
 .about_section_text_container {
 
 /* (SIDE BY SIDE VIEW) */

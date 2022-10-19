@@ -6,3 +6,8 @@ sections:
     layout: list
     image:
       back: white
+  fields:
+    type: fields
+    fields:
+      Description:
+        type: textarea

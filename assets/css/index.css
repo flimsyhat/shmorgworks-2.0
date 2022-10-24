@@ -188,7 +188,14 @@
 
 }
 
-/* ERROR MESSAGE */
+/* about section text styling */
+.about_text {
+
+  font-size: 14px;
+
+}
+
+/* ---------------------- ERROR MESSAGE STYLING --------------------------------- */
 
 .error-message{
 

@@ -1,9 +1,9 @@
-Title: so I go through the wall
+Title: so I go through the wall.
 
 ----
 
-Project_Dimensions: 31.5 x 22 x .25 inches
+Project-dimensions: 31.5 x 22 x .25 inches
 
 ----
 
-Date_Created: 2020
+Date-created: 2020

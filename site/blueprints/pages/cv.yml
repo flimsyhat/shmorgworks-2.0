@@ -1,7 +1,85 @@
 title: CV
 
-sections:
-  CV:
-    type: pages
-    image:
-      back: white
+fields:
+  education:
+    label: School
+    type: structure
+    fields:
+      school:
+        label: School
+        type: text
+      course:
+        label: Course
+        type: text
+      date:
+        label: Year
+        display: YYYY
+        type: date
+  solo_exhibitions:
+    label: Solo Exhibitions
+    type: structure
+    fields:
+      name:
+        label: Show Name
+        type: text
+      gallery:
+        label: Gallery
+        type: text
+      curators:
+        label: Curators
+        type: text
+      location:
+        label: Location
+        type: text
+      date:
+        label: Year
+        type: date
+        display: YYYY
+  group_exhibitions:
+    label: Group Exhibitions
+    type: structure
+    fields:
+      name:
+        label: Show Name
+        type: text
+      gallery:
+        label: Gallery
+        type: text
+      curators:
+        label: Curators
+        type: text
+      location:
+        label: Location
+        type: text
+      date:
+        label: Year
+        type: date
+        display: YYYY
+  awards:
+    label: Awards and Honors
+    type: structure
+    fields:
+      award:
+        label: Award
+        type: text
+      presenter:
+        label: Presenter
+        type: text
+      date:
+        label: Year
+        type: date
+        display: YYYY
+  print:
+    label: Print
+    type: structure
+    fields:
+      magazine:
+        label: Magazine
+        type: text
+      description:
+        label: Description
+        type: text
+      date:
+        label: Year
+        type: date
+        display: YYYY

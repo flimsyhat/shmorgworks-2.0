@@ -1,1 +1,122 @@
 Title: CV
+
+----
+
+Education:
+
+- 
+  school: Salisbury University
+  course: Introduction to Sculpture
+  date: 2019-01-01
+- 
+  school: >
+    Wor-Wic Community College/ Arcon Welding
+    Services
+  course: Introduction to Metal-Fabrication course
+  date: 2019-01-01
+- 
+  school: Wor-Wic Community College
+  course: MIG/TIG and Arc Welding-Introduction
+  date: 2018-01-01
+- 
+  school: George Washington University
+  course: 'BS Biology - 3 semesters mechanical engineering - Presidential Scholarship, Clark Scholar'
+  date: 2018-01-01
+- 
+  school: James M. Bennett High School
+  course: ATEX welding course
+  date: 2014-01-01
+
+----
+
+Solo-exhibitions:
+
+- 
+  name: So I Go Through
+  gallery: Ventures Gallery
+  curators: Rehobeth Art League
+  location: Rehobeth, Delaware
+  date: 2022-09-01
+
+----
+
+Group-exhibitions:
+
+- 
+  name: It’s time to reduce the backlog
+  gallery: LATITUDE gallery
+  curators: 'Jingru Li & Leo Yuan'
+  location: Brooklyn, NYC
+  date: 2021-01-01
+- 
+  name: 100th Day Show
+  gallery: Cat Eye Creative
+  curators: Adam Crawford
+  location: Atlanta, GA
+  date: 2021-01-01
+- 
+  name: Summer in the City
+  gallery: Cat Eye Creative
+  curators: Adam Crawford
+  location: Atlanta, GA
+  date: 2021-01-01
+- 
+  name: Midsummer Exhibit
+  gallery: The Art Garage
+  curators: The Art Garage
+  location: Chincoteague, VA
+  date: 2020-01-01
+- 
+  name: WE PROTEST!
+  gallery: Mosely Gallery
+  curators: University of Maryland Eastern Shore
+  location: Pocomoke, Maryland
+  date: 2020-01-01
+- 
+  name: Powerful Little Things
+  gallery: Roaring Artist Gallery
+  curators: Roaring Artist Gallery
+  location: virtual exhibition
+  date: 2020-01-01
+- 
+  name: MerriMINT
+  gallery: MINT Gallery
+  curators: MINT Gallery
+  location: Atlanta, GA
+  date: 2020-01-01
+
+----
+
+Awards:
+
+- 
+  award: Honorable Mention
+  presenter: >
+    Art League of Ocean City “Light and
+    Shadows” Show
+  date: 2020-01-01
+- 
+  award: Honorable Mention
+  presenter: >
+    Salisbury Art Space “Luminosity”
+    Show
+  date: 2020-01-01
+- 
+  award: Honorable Mention
+  presenter: >
+    Art League of Ocean City “Online
+    Juried Corporate Partner Show”
+  date: 2020-01-01
+
+----
+
+Print:
+
+- 
+  magazine: Postscript Magazine, Issue 33
+  description: Service BLANK Magazine, launching issue
+  date: 2020-01-01
+- 
+  magazine: CURIOUS Magazine, Vol.3 No.1
+  description: The Womxn’s Issue
+  date: 2020-01-01

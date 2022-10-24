@@ -1,17 +1,14 @@
 <?php snippet('header') ?>
 
 <div class = "page">
-
-<!-- Education Section -->
-  <h1 class = "cv_headers"> Education </h1>
-
+  
   <!-- EDUCATION SECTION -->
-      <!-- This finds the education subfolder an indexes through its subfolders. -->
-      <?php foreach ($page->children()->index()->search("education")->children() as $education): ?>
+      <h1 class = "cv_headers"> Education </h1>
+      <?php foreach ($page->education()->toStructure() as $education): ?>
 
         <div class = "cv_list_container">
-            <div class = "education_dates"> <?php echo $education->Date() ?> </div>
-            <div class = "education_school_class"> <?php echo $education->School() ?> <br> <em><?php echo $education->Course() ?></em> </div>
+            <div id = "education_dates"> <?php echo $education->date()->toDate('Y') ?> </div>
+            <div id = "education_school_class"> <?php echo $education->school() ?> <br> <em><?php echo $education->course() ?></em> </div>
         </div>
 
       <?php endforeach ?>
@@ -20,13 +17,11 @@
 
   <!-- SOLO EXHIBITIONS SECTION -->
     <h1 class = "cv_headers"> Solo Exhibitions </h1>
-
-        <!-- This finds the education subfolder an indexes through its subfolders. -->
-        <?php foreach ($page->children()->index()->search("solo_exhibitions")->children() as $solo_exhibition): ?>
+        <?php foreach ($page->solo_exhibitions()->toStructure() as $solo_exhibition): ?>
 
           <div class = "cv_list_container">
-            <div class = "solo_exhibition_dates"> <?php echo $solo_exhibition->Date() ?> </div>
-            <div> <em><?php echo $solo_exhibition->Show_Name() ?></em> - <?php echo $solo_exhibition->Gallery() ?> - Exhibit curated by <?php echo $solo_exhibition->Curators() ?> - <?php echo $solo_exhibition->Location() ?></div>
+            <div id = "solo_exhibition_dates"> <?php echo $solo_exhibition->date()->toDate('Y') ?> </div>
+            <div> <em><?php echo $solo_exhibition->name() ?></em> - <?php echo $solo_exhibition->gallery() ?> - Exhibit curated by <?php echo $solo_exhibition->curators() ?> - <?php echo $solo_exhibition->location() ?></div>
           </div>
 
         <?php endforeach ?>
@@ -35,13 +30,11 @@
 
     <!-- Group Exhibitions Section -->
     <h1 class = "cv_headers"> Group Exhibitions </h1>
-
-        <!-- This finds the education subfolder an indexes through its subfolders. -->
-        <?php foreach ($page->children()->index()->search("group_exhibitions")->children() as $group_exhibition): ?>
+        <?php foreach ($page->group_exhibitions()->toStructure() as $group_exhibition): ?>
 
           <div class = "cv_list_container">
-            <div class = "group_exhibition_dates"> <?php echo $group_exhibition->Date() ?> </div>
-            <div> <em><?php echo $group_exhibition->Show_Name() ?></em> - <?php echo $group_exhibition->Gallery() ?> - Exhibit curated by <?php echo $group_exhibition->Curators() ?> - <?php echo $group_exhibition->Location() ?></div>
+            <div id = "group_exhibition_dates"> <?php echo $group_exhibition->date()->toDate('Y') ?> </div>
+            <div> <em><?php echo $group_exhibition->name() ?></em> - <?php echo $group_exhibition->gallery() ?> - Exhibit curated by <?php echo $group_exhibition->curators() ?> - <?php echo $group_exhibition->location() ?></div>
           </div>
 
         <?php endforeach ?>
@@ -50,13 +43,11 @@
 
     <!-- Awards and Honors Section -->
     <h1 class = "cv_headers"> Awards/Honors </h1>
-
-        <!-- This finds the education subfolder an indexes through its subfolders. -->
-        <?php foreach ($page->children()->index()->search("awards_honors")->children() as $awards_honors): ?>
+        <?php foreach ($page->awards()->toStructure() as $award): ?>
 
           <div class = "cv_list_container">
-            <div class = "awards_honors_dates"> <?php echo $awards_honors->Date() ?> </div>
-            <div> <?php echo $awards_honors->Award() ?> - <em><?php echo $awards_honors->Presenter() ?></em></div>
+            <div id = "awards_honors_dates"> <?php echo $award->date()->toDate('Y') ?> </div>
+            <div> <?php echo $award->award() ?> - <em><?php echo $award->presenter() ?></em></div>
           </div>
 
         <?php endforeach ?>
@@ -65,13 +56,11 @@
 
     <!-- Print Section -->
     <h1 class = "cv_headers"> Print </h1>
-
-        <!-- This finds the education subfolder an indexes through its subfolders. -->
-        <?php foreach ($page->children()->index()->search("print")->children() as $print): ?>
+        <?php foreach ($page->print()->toStructure() as $print): ?>
 
         <div class = "cv_list_container">
-          <div class = "print_dates"> <?php echo $print->Date() ?> </div>
-          <div> <?php echo $print->Magazine() ?> - <?php echo $print->Description() ?></div>
+          <div id = "print_dates"> <?php echo $print->date()->toDate('Y') ?> </div>
+          <div> <?php echo $print->magazine() ?> - <?php echo $print->description() ?></div>
         </div>
 
         <?php endforeach ?>

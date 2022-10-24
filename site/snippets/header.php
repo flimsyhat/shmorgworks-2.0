@@ -32,7 +32,7 @@
             <?php endforeach ?>
 
             <!-- link for the contact button in the nav menu  -->
-            <li class = "nav_menu_items"><a class = "nav_menu_items" href = "mailto:shmorgworks@gmail.com"> Contact </a>
+            <li class = "nav_menu_items"><a class = "nav_menu_items" href = "mailto:shmorgworks@gmail.com"> contact </a>
           </ul>
 
           <!-- The social media icons in the nav menu -->

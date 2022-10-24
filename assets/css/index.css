@@ -65,8 +65,10 @@
 
   margin-left: -30px;
   margin-top: 30px;
+  margin-bottom: 30px;
 
 }
+
 .social_media_icons {
 
   display: inline;
@@ -95,7 +97,7 @@
 
 .projects-images {
 
-  min-width: 200px;
+  min-width: 100px;
   max-width: 100%;
 
 }
@@ -211,7 +213,8 @@
   /*position: absolute;*/
   border-left: 1px solid black;
   /* padding adds more space to an element (ie moves the border out). margins add EMPTY space around an element */
-  padding-left: 20px;*/
+  padding-left: 20px;
+  margin-right: 20px;
 
 }
 
@@ -220,6 +223,8 @@
 
   margin-top: -10px;
   margin-right: 20px;
+
+
   /*float: right;*/
 
   /* so the page and header are not on top of eachother */
@@ -251,7 +256,7 @@ If the browser does not support the first font, it tries the next font. */
 
 @media only screen and (max-width: 800px) {
 
-/* change header and page body columns to display on top of eachother for mobile */
+/* change header and page body columns to display two rows for mobile */
   .page_columns {
 
     display: block;
@@ -281,14 +286,16 @@ If the browser does not support the first font, it tries the next font. */
   /*change to list style rather than grid */
   .projects-list {
 
-    display: block !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
   }
 
   /* add a divider for mobile so titles are not confusing */
   .projects-container {
 
-    border-bottom: 1px solid black;
-    margin-bottom: 20px;
+    /*border-bottom: 1px solid black;
+    margin-bottom: 20px;*/
 
   }
 

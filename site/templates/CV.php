@@ -3,7 +3,7 @@
     <div class = "page">
 
       <!-- EDUCATION SECTION -->
-          <h1 class = "cv_headers"> Education </h1>
+          <h1 class = "cv_headers"> education </h1>
           <?php foreach ($page->education()->toStructure() as $education): ?>
 
             <div class = "cv_list_container">
@@ -16,7 +16,7 @@
           <hr>
 
       <!-- SOLO EXHIBITIONS SECTION -->
-        <h1 class = "cv_headers"> Solo Exhibitions </h1>
+        <h1 class = "cv_headers"> solo exhibitions </h1>
             <?php foreach ($page->solo_exhibitions()->toStructure() as $solo_exhibition): ?>
 
               <div class = "cv_list_container">
@@ -29,7 +29,7 @@
             <hr>
 
         <!-- Group Exhibitions Section -->
-        <h1 class = "cv_headers"> Group Exhibitions </h1>
+        <h1 class = "cv_headers"> group exhibitions </h1>
             <?php foreach ($page->group_exhibitions()->toStructure() as $group_exhibition): ?>
 
               <div class = "cv_list_container">
@@ -42,7 +42,7 @@
             <hr>
 
         <!-- Awards and Honors Section -->
-        <h1 class = "cv_headers"> Awards/Honors </h1>
+        <h1 class = "cv_headers"> awards/honors </h1>
             <?php foreach ($page->awards()->toStructure() as $award): ?>
 
               <div class = "cv_list_container">
@@ -55,7 +55,7 @@
             <hr>
 
         <!-- Print Section -->
-        <h1 class = "cv_headers"> Print </h1>
+        <h1 class = "cv_headers"> print </h1>
             <?php foreach ($page->print()->toStructure() as $print): ?>
 
             <div class = "cv_list_container">
@@ -71,6 +71,6 @@
 
       <!-- closing div for the .page_columns class -->
     </div>
-    
+
 </body>
 </html>

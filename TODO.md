@@ -1,9 +1,12 @@
 TODO:
 
-1. Finish changes Morgan wants (sean font)
+1. Change font to original
 
-2. Add award for 3rd entry in award section
+2. Test on all browsers and on mobile
+|
+|-> move header to the top if on mobile view
+|->
 
-3. Add months to all the year dates to improve formatting
-
-4. Test on all browsers and on mobile
+Changes for morgan:
+-Add months to all the year dates to improve formatting
+-Add award for 3rd entry in award section

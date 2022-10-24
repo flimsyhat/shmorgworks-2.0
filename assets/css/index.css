@@ -4,9 +4,13 @@
 .header {
 
   /*FLOAT THE HEADER LEFT SO THE BODY CAN BE PLACED ALONGSIDE IT */
-  width: 300px;
-  float: left;
-  position: relative;
+  /*width: 300px;*/
+  /*float: left;
+  position: relative;*/
+
+  /*so the border on the about and cv page doesnt touch the header when the page is resized */
+  padding-right: 20px;
+
 }
 
 /* STYLING FOR THE LOGO IN THE NAV MENU */
@@ -38,6 +42,7 @@
   list-style: none;
   margin-left: -20px;
   margin-top: 30px;
+
 }
 
 .nav_menu_items {
@@ -174,7 +179,7 @@
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 3rem;
   margin-bottom: 20px;
-  width: 80%
+  width: 80%;
 
 }
 
@@ -182,44 +187,52 @@
 
 .error-message{
 
-text-align: center;
-margin-top: 150px;
-font-size: 20px;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 20px;
+
+}
+
+.page_columns {
+
+  display: grid;
+  grid-template-columns: 1fr 3.5fr;
 
 }
 
 /* PAGE STYLING. THIS IS EVERYTHING ON EVERY PAGE THAT IS NOT THE HEADER. IT IS FLOATED RIGHT AND THE HEADER IS FLOATED LEFT. */
 .page {
 
-  float: right;
-  margin-top: -10px;
+  /*float: right;*/
+  margin-top: -15px;
   /* so the page and header are not on top of eachother */
-  margin-left: 310px;
-  margin-right: 40px;
-  position: absolute;
+  /*margin-left: 310px;*/
+  /*margin-right: 40px;*/
+  /*position: absolute;*/
   border-left: 1px solid black;
   /* padding adds more space to an element (ie moves the border out). margins add EMPTY space around an element */
-  padding-left: 20px;
+  padding-left: 20px;*/
+
 }
 
 /* SEPARATE HOME PAGE STYLING BECAUSE I DONT WANT THE LEFT SIDE BORDER LINE ON THIS PAGE */
 .home_page {
 
   margin-top: -10px;
-  float: right;
+  margin-right: 20px;
+  /*float: right;*/
 
   /* so the page and header are not on top of eachother */
-  margin-left: 310px;
-  position: absolute;
-  margin-right: 40px;
+  /*margin-left: 310px;*/
+  /*position: absolute;*/
+  /*margin-right: 40px;*/
 
 }
 
 /* BODY STYLING.*/
 body {
 
-  margin-top: 40px;
-
+  margin-top: 30px;
 
 }
 
@@ -231,4 +244,85 @@ If the browser does not support the first font, it tries the next font. */
 
   font-family: 'Montserrat', sans-serif;
   /*letter spacing: 1.8px; */
+}
+
+
+/* ----------------------- MOBILE STYLING ---------------------------------- */
+
+@media only screen and (max-width: 800px) {
+
+/* change header and page body columns to display on top of eachother for mobile */
+  .page_columns {
+
+    display: block;
+  }
+
+  /*let header take up full space on the top of the page body */
+  .header {
+
+    /*width: 100%;*/
+
+    /* so header can be distinguished from rest of page on mobile */
+    /*border-bottom: 1px solid black; */
+
+  }
+
+  /* ----------------------HOME PAGE MOBILE STYLING---------------------------*/
+
+  .home_page {
+
+    /* not totally sure why i need this margin to align. some margin used above i suppose */
+    margin-left: -20px !important;
+    width: 100%;
+
+  }
+
+
+  /*change to list style rather than grid */
+  .projects-list {
+
+    display: block !important;
+  }
+
+  /* add a divider for mobile so titles are not confusing */
+  .projects-container {
+
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+
+  }
+
+  /* Links from pix, dont want there to be opacity change on mobile*/
+  .projects:hover {
+
+    opacity: 1;
+
+  }
+
+  /* -----------------------------CV AND ABOUT MOBILE PAGE STYLING-----------------------------*/
+
+  .page {
+
+    /*some stuff getting cut of on right with 100%*/
+    width: 90%;
+
+    /*get rid of left border on mobile as everything is stacked on top of eachother */
+    border-left: none;
+
+  }
+
+  /*stack and expand about sections to fill the page better */
+  .about_images {
+
+    max-width: 100%;
+
+  }
+
+  .about_section_text_container {
+
+    display: block;
+    width: 100%;
+
+  }
+
 }

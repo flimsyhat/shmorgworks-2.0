@@ -8,6 +8,10 @@
 
   <!-- Link to the css styling file -->
   <?php echo css('assets/css/index.css') ?>
+
+  <!-- Link to Montserrat font family -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+
 </head>
 <body>
 

@@ -1,9 +1,9 @@
-Title: something austere when the land is cracked, the sky is slanted, and all is shape
+Title: something austere when the land is cracked, the sky is slanted, and all is shape.
 
 ----
 
-Project_Dimensions: 14 x 13.5 x .25 inches
+Project-dimensions: 14 x 13.5 x .25 inches
 
 ----
 
-Date_Created: 2020
+Date-created: 2020

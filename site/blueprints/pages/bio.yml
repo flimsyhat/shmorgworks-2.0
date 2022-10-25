@@ -1,16 +1,13 @@
 title: Bio
 
-sections:
-  Image:
+fields:
+  image:
+    label: Headshot
     type: files
-    layout: cards
+    multiple: false
     image:
       cover: true
-      ratio:
-  Info:
-    type: fields
-    fields:
-      Paragraph_1:
-        type: textarea
-      Paragraph_2:
-        type: textarea
+    layout: cards
+  text:
+    label: Biography
+    type: textarea

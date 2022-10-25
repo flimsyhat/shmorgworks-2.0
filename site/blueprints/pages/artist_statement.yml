@@ -1,16 +1,13 @@
 title: Artist Statement
 
-sections:
-  Image:
+fields:
+  image:
+    label: Cover Image
     type: files
-    layout: cards
+    multiple: false
     image:
       cover: true
-      ratio:
-  Info:
-    type: fields
-    fields:
-      Paragraph_1:
-        type: textarea
-      Paragraph_2:
-        type: textarea
+    layout: cards
+  text:
+    label: Statement
+    type: textarea

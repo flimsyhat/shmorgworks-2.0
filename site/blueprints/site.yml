@@ -1,11 +1,23 @@
 title: Site
 
 sections:
+  test:
+    type: pages
+    label: Pieces
+    parent: kirby.page('pieces')
+    layout: cards
+    template: piece
+    image:
+      query: page.images.first
+      ratio: 3/2
+      cover: true
   pages:
     type: pages
+    status: listed
     layout: list
     image:
       back: white
+info: "{{ page.year }}"
   fields:
     type: fields
     fields:

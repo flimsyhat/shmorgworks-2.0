@@ -8,7 +8,7 @@
     <!-- pieces for loop -->
       <div class = "home_page">
         <ul class = "projects-list">
-          <?php foreach ($page->children() as $project): ?>
+          <?php foreach (page('pieces')->children() as $project): ?>
 
               <li class = "projects-container">
 

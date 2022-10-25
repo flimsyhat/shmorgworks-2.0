@@ -3,6 +3,8 @@ title: Pieces
 sections:
   Pieces:
     type: pages
+    templates:
+      - piece
     layout: cards
     image:
       cover: true

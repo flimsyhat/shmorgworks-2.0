@@ -18,12 +18,18 @@ sections:
     image:
       back: white
 info: "{{ page.year }}"
+#this line above seems to have deleted the option to edit the site description
   fields:
     type: fields
     fields:
       Description:
         type: textarea
 
+
 staticSiteGenerator:
-   label: Generate a static version of the site
-   # ... (see "Field options")	
+   label: Generate static site
+   help: Custom help text
+   progress: Custom please-wait message
+   success: Custom success message
+   error: Custom error message
+   # ... (see "Field options")

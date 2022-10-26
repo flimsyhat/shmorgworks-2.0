@@ -1,9 +1,11 @@
 <?php
 
+
 return [
   //set to true to debug php issues. Set false for security purposes
     'debug'  => true
 ];
+
 
 /*
 return [

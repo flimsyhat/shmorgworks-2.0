@@ -23,3 +23,7 @@ info: "{{ page.year }}"
     fields:
       Description:
         type: textarea
+
+staticSiteGenerator:
+   label: Generate a static version of the site
+   # ... (see "Field options")	

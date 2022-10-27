@@ -4,7 +4,7 @@
 
 
     <div class = "page">
-      <p class = "error-message"> <?php echo $page->Text() ?> </p>
+      <p class = "error-message"> <?= $page->Text() ?> </p>
     </div>
     <!-- closing div for the .page_columns class -->
   </div>

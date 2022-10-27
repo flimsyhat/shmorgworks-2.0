@@ -13,10 +13,10 @@
               <li class = "projects-container">
 
                 <!-- Images are displayed with a weird path in the browser, maybe I can fix this -->
-                <a href="<?php echo $project->images() ?>" class = "projects"> <img src = "<?php echo $project->images()?>" class = "projects-images"> </a>
-                <p class = "project-title"> <?php echo $project->Title() ?> </p>
-                <p class = "project-dimensions"> <?php echo $project->Project_Dimensions() ?> </p>
-                <p class = "project-date"> <?php echo $project->Date_Created() ?> </p>
+                <a href="<?= $project->images() ?>" class = "projects"> <img src = "<?= $project->images()?>" class = "projects-images"> </a>
+                <p class = "project-title"> <?= $project->Title() ?> </p>
+                <p class = "project-dimensions"> <?= $project->Project_Dimensions() ?> </p>
+                <p class = "project-date"> <?= $project->Date_Created() ?> </p>
               </li>
 
           <?php endforeach ?>

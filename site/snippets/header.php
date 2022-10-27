@@ -4,10 +4,10 @@
   <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
 
   <!-- Displays the page title for each page in the browser tab -->
-  <title> <?php echo $page->title() ?> </title>
+  <title> <?= $page->title() ?> </title>
 
   <!-- Link to the css styling file -->
-  <?php echo css('assets/css/index.css') ?>
+  <?= css('assets/css/index.css') ?>
 
   <!-- Link to Montserrat font family -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
@@ -21,10 +21,10 @@
       <header class = "header">
 
         <!-- Shmorgworks "logo" in the top left corner  -->
-        <a class = "logo" href="<?php echo $site -> url() ?>"> <?php echo $site -> Title()?> </a>
+        <a class = "logo" href="<?= $site -> url() ?>"> <?= $site -> Title()?> </a>
 
         <!--  Shmorgworks description, Currently: Abstract metal sculptures by L. Morgan Kelley. -->
-        <p class = "nav_menu_description"> <?php echo $site -> Description()?> </p>
+        <p class = "nav_menu_description"> <?= $site -> Description()?> </p>
 
         <!-- The list of other pages, as well as the contact email button  -->
         <nav>
@@ -32,7 +32,7 @@
 
             <!-- php for loop that displats the about and cv page links  -->
             <?php foreach ($site->children()->listed() as $item): ?>
-              <li class = "nav_menu_items"><a class = "nav_menu_items" href = "<?php echo $item->url() ?>"><?php echo $item -> Title() ?></a></li>
+              <li class = "nav_menu_items"><a class = "nav_menu_items" href = "<?= $item->url() ?>"><?= $item -> Title() ?></a></li>
             <?php endforeach ?>
 
             <!-- link for the contact button in the nav menu  -->

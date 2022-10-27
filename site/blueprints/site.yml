@@ -1,7 +1,12 @@
 title: Site
 
 sections:
-  test:
+  generator:
+    type: fields
+    fields:
+      staticSiteGenerator:
+        label: Generate a static version of the site
+  pieces:
     type: pages
     label: Pieces
     parent: kirby.page('pieces')
@@ -18,17 +23,8 @@ sections:
     image:
       back: white
   info: "{{ page.year }}" # what is this field for?
-  fields:
+  description:
     type: fields
     fields:
       Description:
         type: textarea
-
-
-staticSiteGenerator:
-   label: Generate static site
-   help: Custom help text
-   progress: Custom please-wait message
-   success: Custom success message
-   error: Custom error message
-   # ... (see "Field options")

@@ -17,8 +17,7 @@ sections:
     layout: list
     image:
       back: white
-info: "{{ page.year }}"
-#this line above seems to have deleted the option to edit the site description
+  info: "{{ page.year }}" # what is this field for?
   fields:
     type: fields
     fields:

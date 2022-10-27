@@ -44,9 +44,9 @@
 
             <?php $insta_image = $site-> image('/images/instagram-icon.svg')?>
 
-            <li class = "social_media_icons"> <a class = "social_media_icons" href = "https://www.instagram.com/shmorgworks/" target="_blank"> <img src = "/images/instagram-icon.svg" class = "social_media_icons" ></a></li>
-            <li class = "social_media_icons"> <a class = "social_media_icons" href = "https://twitter.com/shmorgworks" target="_blank"> <img src = "/images/twitter-icon.svg" class = "social_media_icons" ></a></li>
-            <li class = "social_media_icons"> <a class = "social_media_icons" href = "https://www.tiktok.com/@shmorgworks" target="_blank"> <img src = "/images/tik-tok-icon.svg" class = "social_media_icons" ></a></li>
+            <li class = "social_media_icons"> <a class = "social_media_icons" href = "https://www.instagram.com/shmorgworks/" target="_blank"> <img src = "assets/images/instagram-icon.svg" class = "social_media_icons" ></a></li>
+            <li class = "social_media_icons"> <a class = "social_media_icons" href = "https://twitter.com/shmorgworks" target="_blank"> <img src = "assets/images/twitter-icon.svg" class = "social_media_icons" ></a></li>
+            <li class = "social_media_icons"> <a class = "social_media_icons" href = "https://www.tiktok.com/@shmorgworks" target="_blank"> <img src = "assets/images/tik-tok-icon.svg" class = "social_media_icons" ></a></li>
 
           </ul>
         </nav>

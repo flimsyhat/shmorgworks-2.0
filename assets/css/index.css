@@ -180,7 +180,11 @@
 
 .about_section_text_container {
 /* (SIDE BY SIDE VIEW) */
-  columns: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  /* columns: 2; */
+
 }
 
 .about_section_text_container p {

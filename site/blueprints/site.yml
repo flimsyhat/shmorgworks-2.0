@@ -22,7 +22,7 @@ sections:
     layout: list
     image:
       back: white
-  info: "{{ page.year }}" # what is this field for?
+  #info: "{{ page.year }}" # what is this field for?
   description:
     type: fields
     fields:

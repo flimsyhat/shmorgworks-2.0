@@ -2,8 +2,8 @@ Title: if only
 
 ----
 
-Project_Dimensions: 14.5 x 35.25 inches
+Dimensions: 14.5 x 35.25 inches
 
 ----
 
-Date_Created: 2021
+Date: 2021

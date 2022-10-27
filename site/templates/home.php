@@ -14,12 +14,12 @@
 
                 <!-- we need to use the absolute url for static site generation -->
                 <?php $image = $project->image()->url() ?>
-                
+
                 <!-- Images are displayed with a weird path in the browser, maybe I can fix this -->
                 <a href="<?= $image ?>" class = "projects"> <img src = "<?= $image ?>" class = "projects-images"> </a>
-                <p class = "project-title"> <?= $project->Title() ?> </p>
-                <p class = "project-dimensions"> <?= $project->Project_Dimensions() ?> </p>
-                <p class = "project-date"> <?= $project->Date_Created() ?> </p>
+                <p class = "project-title"> <?= $project->title() ?> </p>
+                <p class = "project-dimensions"> <?= $project->dimensions() ?> </p>
+                <p class = "project-date"> <?= $project->date()->toDate('Y') ?> </p>
               </li>
 
           <?php endforeach ?>

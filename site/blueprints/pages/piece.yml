@@ -10,9 +10,12 @@ sections:
   Info:
     type: fields
     fields:
-      Title:
+      title:
         type: text
-      Project_Dimensions:
+      dimensions:
+        label: Dimensions
         type: text
-      Date_Created:
-        type: text
+      date:
+        label: Date Created
+        display: YYYY
+        type: date

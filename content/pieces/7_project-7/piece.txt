@@ -2,8 +2,8 @@ Title: burst your bubble
 
 ----
 
-Project_Dimensions: 23 x 24 x 1 inches
+Dimensions: 23 x 24 x 1 inches
 
 ----
 
-Date_Created: 2020
+Date: 2020

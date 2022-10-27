@@ -182,7 +182,9 @@
 /* (SIDE BY SIDE VIEW) */
   display: grid;
   grid-template-columns: 1fr 1fr;
-
+  grid-column-gap: 3rem;
+  margin-bottom: 20px;
+  width: 80%
   /* columns: 2; */
 
 }
@@ -297,6 +299,7 @@ If the browser does not support the first font, it tries the next font. */
     /*border-bottom: 1px solid black; */
 
   }
+
 
   /* ----------------------HOME PAGE MOBILE STYLING---------------------------*/
 

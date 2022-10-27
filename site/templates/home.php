@@ -12,8 +12,11 @@
 
               <li class = "projects-container">
 
+                <!-- we need to use the absolute url for static site generation -->
+                <?php $image = $project->image()->url() ?>
+                
                 <!-- Images are displayed with a weird path in the browser, maybe I can fix this -->
-                <a href="<?= $project->images() ?>" class = "projects"> <img src = "<?= $project->images()?>" class = "projects-images"> </a>
+                <a href="<?= $image ?>" class = "projects"> <img src = "<?= $image ?>" class = "projects-images"> </a>
                 <p class = "project-title"> <?= $project->Title() ?> </p>
                 <p class = "project-dimensions"> <?= $project->Project_Dimensions() ?> </p>
                 <p class = "project-date"> <?= $project->Date_Created() ?> </p>
